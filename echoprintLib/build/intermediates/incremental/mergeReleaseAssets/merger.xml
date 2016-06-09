@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintLib/src/main/assets"/><source path="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintLib/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintLib/src/release/assets"/></dataSet></merger>
