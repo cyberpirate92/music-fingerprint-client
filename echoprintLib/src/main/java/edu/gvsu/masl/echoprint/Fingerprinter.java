@@ -61,6 +61,7 @@ public class Fingerprinter implements Runnable
                 }
                 while (samplesIn < bufferSize);
                 time = System.currentTimeMillis();
+                didFinishRecording();
                 Codegen codegen = new Codegen();
                 code = codegen.generate(audioData, samplesIn);
                 Log.d("Fingerprinter v2","Code generated : "+code);
@@ -81,7 +82,6 @@ public class Fingerprinter implements Runnable
             mRecordInstance = null;
         }
         this.isRunning = false;
-
         didFinishListening();
     }
     public void didFinishListening()
@@ -102,6 +102,23 @@ public class Fingerprinter implements Runnable
         }
         else
             listener.didFinishListening(this.code);
+    }
+    public void didFinishRecording()
+    {
+        if(listener == null) {
+            return;
+        }
+        if(listener instanceof Activity) {
+            Activity activity = (Activity) listener;
+            activity.runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    listener.didFinishRecording();
+                }
+            });
+        }
+        else
+            listener.didFinishRecording();
     }
     public void stop()
     {

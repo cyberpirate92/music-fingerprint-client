@@ -6,4 +6,5 @@ package edu.gvsu.masl.echoprint;
 public interface FingerprintListener
 {
     void didFinishListening(String code);
+    void didFinishRecording();
 }

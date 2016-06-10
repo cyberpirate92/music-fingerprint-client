@@ -12,7 +12,7 @@
 	android:layout_gravity="center_vertical|center_horizontal|center"
 />
 <TextView 
-	android:text="Idle..." 
+	android:text="Press the button to start"
 	android:paddingTop="50px"
 	android:textAppearance="?android:attr/textAppearanceLarge" 
 	android:layout_height="wrap_content" 
@@ -21,10 +21,19 @@
 	android:layout_gravity="center_vertical|center_horizontal|center"
 />
 
+	<ProgressBar
+		style="?android:attr/progressBarStyleLarge"
+		android:layout_width="wrap_content"
+		android:indeterminate="true"
+		android:layout_height="wrap_content"
+		android:id="@+id/progressBar"
+		android:layout_gravity="center_horizontal" />
+
 	<TextView
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:text="New Text"
 		android:id="@+id/textView"
+		android:textSize="20sp"
 		android:layout_gravity="center_horizontal" />
 </LinearLayout>

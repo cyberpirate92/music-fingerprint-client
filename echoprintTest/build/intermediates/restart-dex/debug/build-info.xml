@@ -4,30 +4,50 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="8831530612402"
-    token="8746122123109059849" >
+    timestamp="53499696381114"
+    token="8746122123109059849"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="248" />
+        duration="109" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="845" />
     <task
         name="instant-run-transform"
-        duration="304" />
+        duration="75" />
     <task
         name="verifier"
-        duration="7" />
+        duration="2" />
 
     <artifact
-        location="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/outputs/apk/echoprintTest-debug.apk"
-        type="MAIN" />
+        location="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="8831530612402" >
+    <build timestamp="52515556505715" >
         <artifact
             location="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/outputs/apk/echoprintTest-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="52800322726978" >
+        <artifact
+            location="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="53026253909330"
+        verifier="FIELD_REMOVED" >
+        <artifact
+            location="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="53499696381114"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

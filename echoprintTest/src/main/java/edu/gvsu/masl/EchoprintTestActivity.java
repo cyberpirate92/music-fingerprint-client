@@ -30,6 +30,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import edu.gvsu.masl.echoprint.FingerprintListener;
@@ -37,7 +38,8 @@ import edu.gvsu.masl.echoprint.Fingerprinter;
 
 public class EchoprintTestActivity extends Activity implements FingerprintListener
 {
-	boolean recording, resolved;
+	ProgressBar progressBar;
+	boolean recording;
 	Fingerprinter fingerprinter;
 	TextView textView;
 	TextView status;
@@ -51,6 +53,8 @@ public class EchoprintTestActivity extends Activity implements FingerprintListen
 
 		textView = (TextView) findViewById(R.id.textView);
 		btn = (Button) findViewById(R.id.recordButton);
+		progressBar = (ProgressBar) findViewById(R.id.progressBar);
+		progressBar.setVisibility(View.INVISIBLE);
 
 		status = (TextView) findViewById(R.id.status);
 		btn.setOnClickListener(new View.OnClickListener()
@@ -68,20 +72,25 @@ public class EchoprintTestActivity extends Activity implements FingerprintListen
 						fingerprinter = new Fingerprinter(EchoprintTestActivity.this);
 
 					fingerprinter.fingerprint(15);
-					textView.setText("Waiting for fingerprint...");
+					status.setText("Recording Audio...");
+					btn.setText("Stop");
 				}
 			}
 		});
 	}
 
-	public void didFinishListening(String code)
-	{
+	@Override
+	public void didFinishListening(String code) {
+		progressBar.setVisibility(View.INVISIBLE);
 		btn.setText("Start");
-
-		if(!resolved)
-			status.setText("Idle...");
-
 		recording = false;
+        status.setText("Press the button to start a new recording :)");
 		textView.setText(code);
+	}
+
+	@Override
+	public void didFinishRecording() {
+		progressBar.setVisibility(View.VISIBLE);
+		status.setText("Generating fingerprint, please wait...");
 	}
 }
