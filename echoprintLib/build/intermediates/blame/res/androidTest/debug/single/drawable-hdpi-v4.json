@@ -2,5 +2,9 @@
     {
         "merged": "/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintLib/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/icon.png",
         "source": "/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintLib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/icon.png"
+    },
+    {
+        "merged": "/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintLib/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/icon.png",
+        "source": "/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintLib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/icon.png"
     }
 ]

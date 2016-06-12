@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintLib/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintLib/build/intermediates/res/merged/androidTest/debug/values/values.xml",
         "map": [
             {

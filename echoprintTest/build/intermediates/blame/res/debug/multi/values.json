@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/intermediates/res/merged/debug/values/values.xml",
+        "outputFile": "/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/build/intermediates/res/merged/debug/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 101
                 },
                 "from": {
-                    "file": "/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/res/values/strings.xml",
+                    "file": "/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 128,
+                        "startOffset": 125,
                         "endColumn": 50,
-                        "endOffset": 174
+                        "endOffset": 171
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 171
                 },
                 "from": {
-                    "file": "/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/res/values/strings.xml",
+                    "file": "/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 57,
+                        "startOffset": 55,
                         "endColumn": 69,
-                        "endOffset": 122
+                        "endOffset": 120
                     }
                 }
             }

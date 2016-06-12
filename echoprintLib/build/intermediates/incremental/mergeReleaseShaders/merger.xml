@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintLib/src/main/shaders"/></dataSet><dataSet config="release"><source path="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintLib/src/release/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintLib/src/main/shaders"/></dataSet><dataSet config="release"><source path="/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintLib/src/release/shaders"/></dataSet></merger>

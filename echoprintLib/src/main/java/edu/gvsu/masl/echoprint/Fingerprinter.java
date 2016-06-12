@@ -96,12 +96,12 @@ public class Fingerprinter implements Runnable
             {
                 public void run()
                 {
-                    listener.didFinishListening(code);
+                    listener.didFinishFingerprinting(code);
                 }
             });
         }
         else
-            listener.didFinishListening(this.code);
+            listener.didFinishFingerprinting(this.code);
     }
     public void didFinishRecording()
     {

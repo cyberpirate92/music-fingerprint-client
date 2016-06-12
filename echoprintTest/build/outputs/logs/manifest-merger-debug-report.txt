@@ -1,57 +1,57 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:2:1-20:12
 	package
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:3:7-30
-		INJECTED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml
-		INJECTED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:3:7-30
+		INJECTED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml
+		INJECTED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:5:7-32
-		INJECTED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml
-		INJECTED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:5:7-32
+		INJECTED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml
+		INJECTED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:4:7-30
-		INJECTED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml
-		INJECTED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml
+		INJECTED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:7:5-66
+ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:7:5-66
 	android:name
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:8:5-70
+ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:8:5-70
 	android:name
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:8:22-68
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:8:22-68
 application
-ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:10:5-18:19
-MERGED from [EchoprintTestAndroidStudio:echoprintLib:unspecified] /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/intermediates/exploded-aar/EchoprintTestAndroidStudio/echoprintLib/unspecified/AndroidManifest.xml:11:5-14:19
+ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:10:5-18:19
+MERGED from [music-fingerprint-client:echoprintLib:unspecified] /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/build/intermediates/exploded-aar/music-fingerprint-client/echoprintLib/unspecified/AndroidManifest.xml:11:5-14:19
 	android:label
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:10:48-80
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:10:48-80
 	android:icon
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:10:18-47
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:10:18-47
 activity#edu.gvsu.masl.EchoprintTestActivity
-ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:11:9-17:20
+ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:11:9-17:20
 	android:label
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:12:19-51
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:12:19-51
 	android:name
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:11:19-56
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:11:19-56
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:13:13-16:29
+ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:13:13-16:29
 action#android.intent.action.MAIN
-ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:14:17-69
+ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:15:17-77
+ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:15:17-77
 	android:name
-		ADDED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml:15:27-74
 uses-sdk
-INJECTED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [EchoprintTestAndroidStudio:echoprintLib:unspecified] /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/intermediates/exploded-aar/EchoprintTestAndroidStudio/echoprintLib/unspecified/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [music-fingerprint-client:echoprintLib:unspecified] /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/build/intermediates/exploded-aar/music-fingerprint-client/echoprintLib/unspecified/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		INJECTED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml
-		INJECTED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml
+		INJECTED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml
+		INJECTED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml
-		INJECTED from /home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/src/main/AndroidManifest.xml
+		INJECTED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml
+		INJECTED from /home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/src/main/AndroidManifest.xml

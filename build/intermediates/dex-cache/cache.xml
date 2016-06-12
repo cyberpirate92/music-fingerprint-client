@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="5af69359e8600558ca20c50bca07e66e96f6afca">
+        <dex dex="/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_724ee6144658265612dd8314b53a06ffa9889483/classes.dex" />
+    </item>
+    <item
+        jar="/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="0f5007fd249455adc85bd7437cfb741191aee648">
+        <dex dex="/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6ad7e8a0c17de5d4aff4ff93045dfcd728b1948e/classes.dex" />
+    </item>
+
+</items>

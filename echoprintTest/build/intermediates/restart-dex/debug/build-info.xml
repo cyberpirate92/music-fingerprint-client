@@ -4,50 +4,35 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="53499696381114"
-    token="8746122123109059849"
-    verifier="COMPATIBLE" >
+    timestamp="121287070043646"
+    token="-7360314727694696612" >
 
     <task
         name="javac"
-        duration="109" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="845" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="75" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
     <artifact
-        location="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="52515556505715" >
+    <build timestamp="121219687825438" >
         <artifact
-            location="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/outputs/apk/echoprintTest-debug.apk"
+            location="/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/build/outputs/apk/echoprintTest-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="52800322726978" >
+    <build timestamp="121287070043646" >
         <artifact
-            location="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="53026253909330"
-        verifier="FIELD_REMOVED" >
-        <artifact
-            location="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="53499696381114"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/zen/Android_Studio_Projects/EchoprintTestAndroidStudio/echoprintTest/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
+            location="/home/zen/Android_Studio_Projects/music-fingerprint-client/echoprintTest/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
